@@ -2,26 +2,26 @@
   "name": "Om Vignarajaya Namaha",
   "short_name": "Om",
   "icons": [{
-    "src": "images/icon-128x128.jpg",
+    "src": "images/icon-128x128.png",
       "sizes": "128x128",
-      "type": "image/jpg"
+      "type": "image/png"
     }, {
-      "src": "images/icon-144x144.jpg",
+      "src": "images/icon-144x144.png",
       "sizes": "144x144",
-      "type": "image/jpg"
+      "type": "image/png"
     }, {
-      "src": "images/icon-152x152.jpg",
+      "src": "images/icon-152x152.png",
       "sizes": "152x152",
-      "type": "image/jpg"
+      "type": "image/png"
     }, {
-      "src": "images/icon-192x192.jpg",
+      "src": "images/icon-192x192.png",
       "sizes": "192x192",
-      "type": "image/jpg"
+      "type": "image/png"
     },
     {
-      "src": "images/icon-512x512.jpg",
+      "src": "images/icon-512x512.png",
       "sizes": "512x512",
-      "type": "image/jpg"
+      "type": "image/png"
     }
   ],
   "start_url": "/index.html",
