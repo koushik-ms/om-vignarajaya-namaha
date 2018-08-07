@@ -24,4 +24,6 @@ Now you can use following commands (from the om-vignarajaya-namaha directory):
 
 As soon as you clone/ fork the repository, change the firebase config information in `src/index.html` to match your project configuration. Check out [the docs](https://firebase.google.com/docs/web/setup) on obtaining this information.
 
-After updating that information to reflect credentials of your firebase project, use `firebase deploy` or `firebase serve` to run the application.
+After updating that information to reflect credentials of your firebase project, use `firebase init` to create a new `.firebaserc` file. You may need to authenticate first with the `firebase login` command. While running `firebase init` select the services needed (current version needs only hosting), the project details, public directory as src. Accept option to rewrite URLs (single-page web application) and DO NOT overwrite src/index.html.
+
+Once this step is complete, you can use `firebase deploy` or `firebase serve` to run the application.
